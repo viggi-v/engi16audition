@@ -1,0 +1,26 @@
+div#card {
+    border: 1px solid black;
+    width: 500px;
+    height: 200px;
+}
+div#qr_holder {
+    width: 30%;
+    display: block;
+    float: left;
+    height: 200px;
+}
+div#details {
+    display: block;
+    width: 350px;
+    float: left;
+    height: 200px;
+}
+table {
+    width: 100%;
+}
+th {
+    width: 50%;
+}
+h1{
+	display: inline;
+}

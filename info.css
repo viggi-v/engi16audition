@@ -1,0 +1,54 @@
+@font-face{
+  font-family:defaultfont;
+  src:url('trench.otf');
+}
+@font-face{
+  font-family: titlefont;
+  src:url('merkur.otf');
+  
+}
+*{
+  margin: 0px;
+}
+.container{
+  font-family: defaultfont; 
+  font-weight: bold;
+}
+h1{
+  text-align: center;
+  font-size:3.5em;
+}
+h1 span{
+  font-family: titlefont;
+  color:red;
+}
+body{
+  background-image: url("bg_info.jpg");
+  background-size:cover;
+}
+#title{
+  background-color:white;
+}
+section{
+  width:70%;
+  padding: 10px;
+  font-size:1.2em;
+  margin:0px auto;
+  margin-top:10px;
+  background-color: rgba(255, 255, 255, 0.76);
+  opacity:0.8;
+  z-index:-1;
+  font-weight: bolder;
+}
+footer {
+    position: fixed;
+    bottom:0px;
+    width:100%;
+    margin:0px;
+    background-color: rgba(103, 58, 183, 0.92);
+    text-align: center;
+    font-family: defaultfont;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: white;
+}

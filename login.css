@@ -1,0 +1,67 @@
+@font-face{
+  font-family:defaultfont;
+  src:url('trench.otf');
+}
+@font-face{
+  font-family: titlefont;
+  src:url('merkur.otf');
+  
+}
+
+
+span#info{color:white;}span#info a {color:white;}
+
+.error_container {
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+
+
+#input_box>a{
+  color:white;
+  font-weight:bold;
+  font-size: 1.1em;
+}
+#title_container{
+  width:50%;
+  margin:0px auto;
+  text-align: center;
+  color:white;
+}
+#title_container span{
+  font-family: titlefont;
+  font-size:8em;
+}
+html{
+  background-image: url('bg.jpg');
+  background-size: cover;
+  font-family: defaultfont;
+}
+#form_container{
+  float: left;
+}
+#form_container a{
+  float: right;
+}
+form input{
+  font-family: defaultfont;
+  border:2px solid  #e91e63;
+  background-color: transparent;
+  color:  #ffeb3b;
+  font-weight: bold;
+  padding: 10px;
+  font-size:1.2em;
+  display: block;
+  margin:5px;
+}
+form input[type="submit"]{
+  margin:0px auto;
+}
+#input_box{
+  display: block;
+  position: absolute;
+  left:20%;
+  top:35%;
+}

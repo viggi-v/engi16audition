@@ -1,0 +1,128 @@
+@font-face{
+  font-family:defaultfont;
+  src:url('trench.otf');
+}
+@font-face{
+  font-family: titlefont;
+  src:url('merkur.otf');
+ }
+*{
+  box-sizing: border-box;
+}
+body{
+	background: url("main_bg.jpg");
+	font-family: defaultfont;
+	background-attachment: fixed;
+	margin: 0px;
+	background-size: cover;
+	padding: 0px;
+	background-position: fixed;
+	background-repeat: no-repeat;
+}
+#data_event{
+	display:none;
+}
+#top_strip{
+  width:100%;
+  height: 20px;
+}
+#top_strip form input{
+display: block;
+float: right;
+background-color: transparent;
+border: 0px;
+background-image: url('logout.png');
+background-size: contain;
+background-repeat: no-repeat;
+width: 20px;
+}
+#top_strip #login_info{
+  float: right;
+}
+nav{
+	display: block;
+	float: left;
+	width:15%;
+	margin: 0px;
+	padding: 0px;
+}
+nav ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+nav ul li button{
+	font-family: defaultfont;
+	font-size: 1.1em;
+	font-weight:bold;
+	width:100%;
+	padding: 10px;
+	background-color: rgba(70, 144, 193, 0.58);
+	border: 2px solid rgba(255, 255, 255, 0.55);
+	margin-top: 30px;
+	color: #fff;
+}
+#title_container span{
+  font-family: titlefont;
+  font-size:8em;
+}
+#top_strip{
+  width:100%;
+	height: 20px;
+  background: white;
+}
+header{
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 5px black;
+}
+.input_container{
+  display:none;
+	width:250px;
+	margin: 0px auto;
+	overflow: hidden;
+	margin-left: 55%;
+}
+.input_container select,.input_container select option{
+	font-family: defaultfont;
+	font-size: 1.1em;
+	font-weight:bold;
+	width:100%;
+	padding: 10px;
+	background-color: rgba(215, 233, 245, 0.49);
+	border:2px solid #e91e63;
+	margin-top: 30px;
+}
+section{
+	display: block;
+	float: left;
+	padding: 10px;
+}
+th,td{
+	border-bottom:1px solid red;
+}
+.input_container input,.input_container textarea,.input_container button{
+	font-family: defaultfont;
+	font-size: 1.1em;
+	font-weight:bold;
+	width:100%;
+	padding: 10px;
+	background-color: rgba(215, 233, 245, 0.49);
+	border:2px solid #e91e63;
+	margin-top: 30px;
+}
+#data_event input,#data_event button,#data_event textarea{
+	display: block;
+}
+.event_res{
+	display: block;
+}
+#op{
+	position: absolute;
+}
+.error_container {
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
